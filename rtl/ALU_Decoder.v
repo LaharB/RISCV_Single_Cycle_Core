@@ -38,7 +38,7 @@ always@(*)
                     3'b111 : ALUControl = 3'b010; //and
                 endcase 
             end
-            default : ALUControl = 3'b000;
+            default : ALUControl = 3'bxxx;
 
         endcase
     end
