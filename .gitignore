@@ -18,6 +18,7 @@ work/
 
 # Ignore log and transcript files
 transcript
+wave.do 
 *.log
 
 # Ignore waveform simulation data files (these are huge)
