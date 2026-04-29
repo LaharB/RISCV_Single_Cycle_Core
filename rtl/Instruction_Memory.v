@@ -21,18 +21,18 @@ module Instruction_Memory(
     //active low reset
     assign RD = (!rst) ? {32{1'b0}} : mem[A[31:2]]; //instruction memory is byte addressable hence PC value is always increment by 4 i.e 3'b100 so ignore bits of the address value A[1:0]
 
-    /*
+    
     initial begin
-        $readmemh("memfile.hex", mem);
+        $readmemh("../sim/memfile.hex", mem);
     end
-    */
+    
 
     //loading instructions at specific addresses manually
     initial begin
         //mem[0] = 32'hFFC4A303;
         //mem[1] = 32'h00832383;
-        mem[0] = 32'hFE54AE23; // sw x5, -4(x9)
-        mem[1] = 32'hFFC4A303; // lw x5, -4(x9)
+        //mem[0] = 32'hFE54AE23; // sw x5, -4(x9)
+        //mem[1] = 32'hFFC4A303; // lw x5, -4(x9)
         //mem[0] = 32'h0062E233;
         //mem[1] = 32'h00B62423;
 
