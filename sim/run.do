@@ -3,7 +3,7 @@ vlib work
 
 # compilation  
 # vlog ../../rtl/Single_Cycle_top.v
-vlog ../../tb/testbench.v
+vlog ../tb/testbench.v
 
 # simulation 
 vsim -debugDB -voptargs="+acc" work.tb

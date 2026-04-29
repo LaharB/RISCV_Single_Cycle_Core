@@ -9,7 +9,8 @@ module Data_Memory(
 
     always@(posedge clk)
         begin
-            mem[A] <= WD;
+            if(WE)
+                mem[A] <= WD;
         end
     
     //async READ as we dont want value in location to get overwritten by WRITE before getting READ

@@ -24,6 +24,7 @@ wave.do
 # Ignore waveform simulation data files (these are huge)
 *.wlf
 wlft*
+*.dbg
 
 # Ignore compilation databases and temporary files
 *.vstf

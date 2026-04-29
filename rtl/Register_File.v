@@ -27,7 +27,7 @@ module Register_File(
 
     //manually putting random values inside registers for A1 and A2 location since we have not implemeted ADDI functionality
     initial begin
-        Resgisters[0] = 32'h0000_0000; //hardcoding register with 0 
+        Registers[0] = 32'h0000_0000; //hardcoding register with 0 
         ///////////////////////////////////////////
         Registers[5] = 32'h0000_0005;
         Registers[6] = 32'h0000_0003;  
