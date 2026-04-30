@@ -1,6 +1,6 @@
 # RISCV Single Cycle Core Implementation
 
-This project showcases the design and implementation of a RISC-V Single Cycle Core processor using Verilog HDL. The RTL was synthesized to view schematics using Vivado 2025.1 and simulation was performed using Siemens QuestaSim 10.7c.
+This project showcases the design and implementation of a RISC-V Single Cycle Core processor using Verilog HDL. The RTL was synthesized to view schematics using Vivado 2025.1 and simulation was performed using Siemens Questasim 10.7c.
 
 It is based on the RV32I Base Integer Instruction Set Architecture. In a Single-cycle Microarchitecure, the processor executes a complete instruction in one clock cycle.The time period of this clock cycle is determined by the slowest instruction which has the longest datapath and this limits the maximum clock frequency.
 
@@ -148,7 +148,7 @@ The simulation has been performed using Questasim 10.7c.
 
 ## Simulation Steps
 
-To compile the RTL and simulate the design , run the `run.do` file in QuestaSim. 
+To compile the RTL and simulate the design , run the `run.do` file in Questasim. 
 
 ----------------------------------------------------
 
