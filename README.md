@@ -123,7 +123,7 @@ The schematic has been generated using both Questasim 10.7c and Vivado 2025.1
 
 - **Questasim 10.7c**
 
-![alt text](docs/Schematic.png)
+![alt text](docs/Schematic_questasim.png)
 
 - **Vivado 2025.1**
 
