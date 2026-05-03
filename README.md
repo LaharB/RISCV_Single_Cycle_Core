@@ -1,4 +1,4 @@
-# RISCV Single Cycle Core Implementation
+# RISC-V Single Cycle Core Implementation
 
 This project showcases the design and implementation of a RISC-V Single Cycle Core processor using Verilog HDL. The RTL was synthesized to view schematics using Vivado 2025.1 and simulation was performed using Siemens Questasim 10.7c.
 
